@@ -1,0 +1,82 @@
+<!-- Semantic HTML -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      nav,
+      main,
+      article,
+      aside,
+      footer {
+        border: 1px solid #ddd;
+        padding: 10px;
+      }
+      nav a {
+        margin-right: 15px;
+      }
+      main {
+        display: flex;
+      }
+      article {
+        flex: 1;
+        margin-left: 220px; /* Space for the sidebar */
+      }
+      aside {
+        width: 200px;
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-right: 2px solid #ddd;
+      }
+      footer {
+        background-color: #f2f2f2;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <h2>Related Links</h2>
+        <ul>
+          <li><a href="#link1">Related Link 1</a></li>
+          <li><a href="#link2">Related Link 2</a></li>
+          <li><a href="#link3">Related Link 3</a></li>
+        </ul>
+      </aside>
+      <article>
+        <h1>Article Heading</h1>
+        <p>
+          This is a paragraph of the article. It provides some introductory
+          content about the topic.
+        </p>
+        <p>
+          Another paragraph that offers more details and expands on the
+          information provided in the previous paragraph.
+        </p>
+      </article>
+    </main>
+
+    <footer>
+      <p>Contact us at:</p>
+      <p>Email: info@example.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </footer>
+  </body>
+</html>
